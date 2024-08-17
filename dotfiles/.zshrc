@@ -22,8 +22,8 @@ alias find-ports="sudo lsof -i -n -P | grep TCP"
 alias brew-update="brew update && brew upgrade"
 alias pomodoro="termdown 60m && termdown 5m -s -t Done"
 alias rm='echo "This is not the command you are looking for."; false'
-alias backup-configs="cd ~/workspace/dotfiles/ && ./backup.sh"
-alias backup-journal="cd ~/workspace/org-mode/ && git status"
+alias backup-configs="cd ~/workspace/configurations/ && ./backup.sh"
+alias backup-diary="cd ~/workspace/diary/ && git status"
 
 # Git aliases
 alias git-root='cd $(git rev-parse --show-toplevel)'
