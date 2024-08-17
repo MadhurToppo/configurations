@@ -23,6 +23,7 @@ alias brew-update="brew update && brew upgrade"
 alias pomodoro="termdown 60m && termdown 5m -s -t Done"
 alias rm='echo "This is not the command you are looking for."; false'
 alias backup-configs="cd ~/workspace/dotfiles/ && ./backup.sh"
+alias backup-journal="cd ~/workspace/org-mode/ && git status"
 
 # Git aliases
 alias git-root='cd $(git rev-parse --show-toplevel)'
