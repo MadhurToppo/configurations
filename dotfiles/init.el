@@ -104,7 +104,7 @@
 (add-hook 'org-after-todo-statistics-hook #'org-summary-todo)
 
 ;; Org-agenda files
-(setq org-agenda-files (list "~/workspace/org-mode/2024"))
+(setq org-agenda-files (list "~/workspace/diary/2024"))
 
 ;; Set default launch terminal to iterm
 (setq terminal-here-mac-terminal-command 'iterm2)
