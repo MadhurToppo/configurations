@@ -55,6 +55,9 @@ alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
 alias j7="export JAVA_HOME=`/usr/libexec/java_home -v 1.7`; java -version"
 
 # Confluence start aliases
+alias confluence-9-02-start-fg="j17 && ~/confluence/atlassian-confluence-9.0.2/bin/start-confluence.sh -fg"
+alias confluence-9-02-start="j17 && ~/confluence/atlassian-confluence-9.0.2/bin/start-confluence.sh"
+alias confluence-9-02-stop="~/confluence/atlassian-confluence-9.0.2/bin/stop-confluence.sh"
 alias confluence-8-57-start-fg="j11 && ~/confluence/atlassian-confluence-8.5.7/bin/start-confluence.sh -fg"
 alias confluence-8-57-start="j11 && ~/confluence/atlassian-confluence-8.5.7/bin/start-confluence.sh"
 alias confluence-8-57-stop="~/confluence/atlassian-confluence-8.5.7/bin/stop-confluence.sh"
