@@ -103,8 +103,11 @@
 
 (add-hook 'org-after-todo-statistics-hook #'org-summary-todo)
 
-;; Org-agenda files
-(setq org-agenda-files (list "~/workspace/diary/2024"))
+;; Load org agenda files
+(load-library "find-lisp")
+(add-hook 'org-agenda-mode-hook (lambda ()
+  (setq org-agenda-files
+    (find-lisp-find-files "~/workspace/diary" "\.org$"))))
 
 ;; Set default launch terminal to iterm
 (setq terminal-here-mac-terminal-command 'iterm2)
