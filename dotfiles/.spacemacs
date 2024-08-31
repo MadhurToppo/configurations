@@ -52,6 +52,9 @@ This function should only modify configuration layer settings."
      multiple-cursors
      org
      dash
+     (spotify :variables
+              counsel-spotify-client-id "3ecb08e4fc0c4f26bad0c2edc29a43aa"
+              counsel-spotify-client-secret "b2164af5c886426f84ac6158c8239dd4")
      (shell :variables
             close-window-with-terminal t
             shell-default-shell 'vterm
