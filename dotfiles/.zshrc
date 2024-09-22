@@ -24,11 +24,13 @@ alias pomodoro="termdown 60m && termdown 5m -s -t Done"
 alias rm='echo "This is not the command you are looking for."; false'
 alias backup-configs="cd ~/workspace/configurations/ && ./backup.sh"
 alias backup-diary="cd ~/workspace/diary/ && git status"
+alias connect-tab-s8='scrcpy --tcpip=192.168.178.26:38163'
 
 # Git aliases
 alias git-root='cd $(git rev-parse --show-toplevel)'
 alias git-count='git shortlog -s -n'
 alias git-pull-develop='git checkout develop && git fetch && git pull && git checkout -'
+alias gln='git log --name-only'
 
 # Exporter environemnt aliases
 alias ngrok-start="ngrok start --all"
