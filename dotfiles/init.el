@@ -121,3 +121,20 @@
     (set-face-background 'default "unspecified-bg" (selected-frame))))
 
 (add-hook 'window-setup-hook 'on-after-init)
+
+;; Add org-mode priorities
+(setq org-highest-priority ?A
+      org-default-priority ?B
+      org-lowest-priority ?D)
+
+;; Set org-mode priority colors
+(setq org-priority-faces '((?A . (:foreground "green"))
+                           (?B . (:foreground "magenta"))
+                           (?C . (:foreground "orange"))
+                           (?D . (:foreground "yellow"))))
+
+;; Set counsel default search engine to google
+(setq counsel-search-engine 'google)
+
+;; Disable ivy counsel fuzzy search
+(setq ivy-initial-inputs-alist nil)
