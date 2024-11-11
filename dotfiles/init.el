@@ -138,3 +138,6 @@
 
 ;; Disable ivy counsel fuzzy search
 (setq ivy-initial-inputs-alist nil)
+
+;; Load OrgModeClockingXBar
+(load-file "/Users/mtoppo/.emacs.d/workspace/OrgModeClockingXBar/OrgModeClockingXBar.el")

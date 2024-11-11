@@ -31,6 +31,7 @@ alias git-root='cd $(git rev-parse --show-toplevel)'
 alias git-count='git shortlog -s -n'
 alias git-pull-develop='git checkout develop && git fetch && git pull && git checkout -'
 alias gln='git log --name-only'
+alias gdn='git diff --name-only'
 
 # Exporter environemnt aliases
 alias ngrok-start="ngrok start --all"
